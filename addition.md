@@ -53,7 +53,7 @@ Scenario: Addition of fractions
   And - type in "2nd fraction number"
   
   And - press "equals"
-                      
+  
   Then - see the sum as the result in decimal
 
 Scenario: Addition of +ve and -ve number
@@ -114,7 +114,8 @@ Scenario: Adding numbers where the result goes out of range
   
   And - press "equals"
   
-  Then - see the sum till the visibility of screen then right arrow is use to see the whole number
+  Then - see the sum till the visibility of screen then 
+  right arrow is use to see the whole number
 
 Scenario: 6+* is provided as input?
 
