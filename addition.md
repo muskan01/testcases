@@ -41,13 +41,13 @@ Scenario: Typing operators more than once
   And - press "equals"
   
   Then - see the sum of two numbers as result
-                    
+  
 Scenario: Addition of fractions
 
   Given The calculater is on
-                      
+  
   When - type in "1st fraction number"
-                      
+  
   And - press "plus"
                       
   And - type in "2nd fraction number"
