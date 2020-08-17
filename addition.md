@@ -117,7 +117,7 @@ Scenario: Adding numbers where the result goes out of range
   Then - see the sum till the visibility of screen then
   right arrow is use to see the whole number
 
-Scenario: 6+* is provided as input?
+Scenario: 6+* is input
 
   Given - The calculator is on
   
