@@ -119,7 +119,7 @@ Scenario: Adding numbers where the result goes out of range
 
 Scenario: 6+* is provided as input?
 
-  Given - The calculater is on
+  Given - The calculator is on
   
   When - type in "1st number"
   
