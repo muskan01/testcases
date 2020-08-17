@@ -114,7 +114,7 @@ Scenario: Adding numbers where the result goes out of range
   
   And - press "equals"
   
-  Then - see the sum till the visibility of screen then 
+  Then - see the sum till the visibility of screen then
   right arrow is use to see the whole number
 
 Scenario: 6+* is provided as input?
