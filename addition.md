@@ -12,7 +12,7 @@ Scenario: Addition of two negative numbers
   
   And - press "equals"
   
-  Then- the result is sum of two numbers with -ve sign in front of it
+  Then- the result is sum of two numbers with negative sign in front of it
 
 Scenario: Addition of two decimal numbers
   
@@ -44,7 +44,7 @@ Scenario: Typing operators more than once
   
 Scenario: Addition of fractions
 
-  Given The calculater is on
+  Given The calculator is on
   
   When - type in "1st fraction number"
   
@@ -56,9 +56,9 @@ Scenario: Addition of fractions
   
   Then - see the sum as the result in decimal
 
-Scenario: Addition of +ve and -ve number
+Scenario: Addition of positive and negative number
 
-  Given The calculater is on
+  Given The calculator is on
   
   When - type in "positive number"
   
@@ -72,7 +72,7 @@ Scenario: Addition of +ve and -ve number
 
 Scenario: Typing two operator
 
-  Given - The calculater is on
+  Given - The calculator is on
   
   When - type in "negative number"
   
@@ -86,7 +86,7 @@ Scenario: Typing two operator
 
 Scenario: Addition of more than 2 numbers
 
-  Given- The calculater is on
+  Given- The calculator is on
   
   When - type in "1st number"
   
@@ -104,7 +104,7 @@ Scenario: Addition of more than 2 numbers
 
 Scenario: Adding numbers where the result goes out of range
 
-  Given - The calculater is on
+  Given - The calculator is on
   
   When - type in "1st large number"
   
